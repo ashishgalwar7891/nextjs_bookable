@@ -1,0 +1,336 @@
+.biz-container h2{
+    color: #333;
+    padding: 20px 0px;
+    font-weight: 700;
+    font-size: 24px;
+  }
+
+  .about-top-hed{
+    padding: 0px 10px;
+    padding-bottom: 0px;
+  }
+
+
+  .biz-about{
+    background-image: url('../../assets/imgs/contact-img.png'); /* Path to your image file */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 230px;
+    padding: 70px 0px 0px;
+  }
+
+  .biz-about h2{
+    font-size: 48px;
+    line-height: 54px;
+    font-weight: 700;
+    max-width: 1550px;
+    margin: auto;
+    padding: 0px 10px;
+  }
+
+  .about-section{
+    padding: 40px 0px;
+    /* max-width: 1200px; */
+    width: 100%;
+    margin: auto;
+  }
+
+  .biz-about-content{
+    max-width: 80%;
+    padding: 0px 10px;
+  }
+
+  .biz-about-content h2{
+    font-size: 24px;
+    line-height: 27px;
+    font-weight: 700;
+    padding-bottom: 25px;
+  }
+  
+  .biz-about-content p{
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 500;
+    color: #2C2C2C;
+    padding: 7px 0px;
+  }
+
+  .biz-about-service-row{
+    display: flex;
+    padding: 30px 10px;
+    padding-top: 0px;
+    gap: 100px;
+  }
+
+  .biz-about-service-column{
+    width: 50%;
+  }
+
+  .biz-about-service-column h2{
+    font-size: 20px;
+  }
+
+  .form-column{
+    display: flex;
+    gap: 20px;
+  }
+
+  .form-name label{
+    font-size: 14px;
+    color: #2C2C2C;
+    line-height: 23px;
+  }
+
+  .form-name input{
+    padding: 10px 12px;
+    border-radius: 5px;
+    border: 1px solid #CDCDCD;
+    width: 100%;
+  }
+
+  .form-name{
+    width: 100%;
+    padding: 6px 0px;
+  }
+
+  .biz-about-contant-row{
+    display: flex;
+    gap: 185px;
+    justify-content: flex-start;
+    padding: 40px 0px;
+  }
+
+  .biz-about-footer-content{
+    padding: 30px 10px;
+    background: azure;
+  }
+
+  .button{
+    display: flex;
+    justify-content: end;
+  }
+
+  .button button{
+    border: 1px solid #EA8933 !important;
+    background: transparent;
+    padding: 10px 16px;
+    border-radius: 5px;
+    border: none;
+    color: #EA8933;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+
+  .form-name input:focus-visible {
+    outline: none;
+  }
+
+  .about-service-column-content h2{
+    padding: 7px 0px;
+    font-size: 17px;
+    color: #69272c;
+    margin-bottom: 0px;
+  }
+  .about-service-column-content p{
+    font-size: 16px;
+    color: #69272c;
+    line-height: 25px;
+    margin-bottom: 15px;
+  }
+
+.about-service-column-content{
+  margin-bottom: 50px;
+  color: #69272c;
+}
+.biz-about-service-row p {
+  font-size: 16px;
+  /* color: #69272c; */
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+
+  .biz-about-service-column img{
+    position: relative;
+    border-radius: 38px;
+    max-width: 100%;
+  }
+
+  .biz-about-service-column-boximg img{
+    transform: rotate(2deg);
+    position: relative;
+    left: 109px;
+    top: -129px;
+    border-radius: 38px;
+    height: auto;
+    width: 297px;
+  }
+
+  .biz-about-service-column svg{
+    font-size: 30px;
+    color: #EA8933;
+    position: relative;
+    top: 8px;
+  }
+
+  .biz-about-box-content .anticon{ 
+    font-size: 30px;
+    color: #EA8933;
+  }
+
+  .biz-about-box-content h2{
+    padding: 7px 0px;
+    font-size: 17px;
+  }
+
+  .biz-about-row{
+    display: flex;
+    gap: 50px;
+  }
+
+  .biz-about-section{
+    display: flex;
+    /* margin-top: 50px; */
+    background: azure;
+    padding: 50px 10px;
+    gap: 50px;
+    align-items: center;
+  }
+
+  .biz-about-box-column{
+    margin-bottom: 30px;
+    width: 50%;
+    align-self: center;
+  }
+
+  .biz-about-box-content svg{
+    font-size: 30px;
+    color: #EA8933;
+  }
+
+  /* .biz-about-section .biz-about-column{
+    width: 30%;
+  }
+
+  .biz-about-section .biz-about-column1{
+    width: 70%;
+  } */
+
+  .biz-about-column img{
+    max-width: 264px;
+  }
+
+  .biz-about-service-column-box img{
+    border-radius: 3px;
+    margin-top: 30px;
+    transform: none;
+    position: relative;
+    max-width: 100%;
+  }
+
+  .biz-about-section .biz-about-column1 h3{
+    font-size: 24px;
+    line-height: 27px;
+    font-weight: 700;
+    padding-bottom: 25px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .biz_row{
+        flex-direction: column;
+    }
+
+    .biz_row section{
+        width: 100%;
+    }
+
+    .biz-about-section{
+      flex-direction: column;
+    }
+
+    .biz-about-section .biz-about-column{
+      width: 100%;
+    }
+
+    .biz-about-section .biz-about-column1{
+      width: 100%;
+    }
+
+    .biz-about-section{
+      gap: 36px;
+    }
+
+    .biz-about-box-column{
+      width: 100%;
+    }
+
+    .biz-about-content{
+      max-width: 100%;
+      width: 100%;
+    }
+
+  }
+
+  @media screen and (max-width: 991px){
+    .biz-about-service-column{
+      width: 100%;
+    }
+
+    .biz-about-service-row{
+      flex-direction: column;
+    }
+
+    .biz-about-service-column-box{
+      width: 100%;
+    }
+
+    .biz-about-service-column img{
+      transform: none;
+      left: 0px;
+    }
+    
+    .biz-about-contant-row{
+      flex-direction: column;
+      gap: 20px;
+    }
+  }
+
+  @media screen and (max-width: 576px){
+    .biz-about-row{
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .biz-about-column img{
+      width: 100%;
+    }
+
+    .biz-about-service-column-box img{
+      width: 100%;
+    }
+
+    .biz-about-service-column img{
+      width: 100%;
+    }
+
+    .form-column{
+      flex-direction: column;
+    }
+
+    .biz-about-section{
+      gap: 36px;
+      padding: 30px 10px;
+      margin: 0px;
+    }
+
+    .about-section{
+      padding: 0px;
+    }
+
+    .biz-about-box-column{
+      width: 100%;
+    }
+  }

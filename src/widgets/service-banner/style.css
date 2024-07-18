@@ -1,0 +1,114 @@
+.service-detail-slide {
+    display: block;
+    min-height: 580px;
+    background-size: cover;
+    background-position: center center;
+}
+@media screen and (max-width: 768px) {
+    .service-detail-slide {
+    background-image: none !important;
+    }
+}
+.position-top {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateX(-50%);
+}
+
+.banner-content h1 {
+    color: var(--White-dark, #F2F1F0);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.banner-content h4 {
+    color: var(--White-dark, #F2F1F0);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.banner-content h5 {
+    color: var(--Orange-Bright, #ED510C);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.banner-content h6 {
+    color: var(--White-dark, #F2F1F0);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.banner-content h2 {
+    color: var(--Orange-Bright, #ED510C);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.banner-content svg {
+    position: relative;
+    top: 3px;
+}
+
+.banner-content ul {
+    display: block;
+    position: relative;
+    list-style: none;
+    margin: 25px 0px;
+}
+
+.banner-content ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    color: var(--Orange-Bright, #ED510C);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.banner-content ul li span {
+    color: var(--Black-Dark, #2C2C2C);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    background-color: #fff;
+    padding: 4px 10px;
+    border-radius: 5px;
+}
+
+.banner-content p {
+    color: var(--White-dark, #F2F1F0);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.position-top {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.service-package{
+    display: block;
+    
+}
+.ant-collapse-header {
+    border-radius: 0px !important;
+}
+
+/* .dropdown_trigger .ant-dropdown-menu-submenu .ant-dropdown-menu{
+    display: flex;
+} */

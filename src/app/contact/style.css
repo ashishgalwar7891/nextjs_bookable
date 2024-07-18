@@ -1,0 +1,270 @@
+.biz-container h2{
+    color: #333;
+    padding: 20px 0px;
+    font-weight: 700;
+    font-size: 24px;
+  }
+
+
+  .biz-contact{
+    background-image: url('../../assets/imgs/contact-img.png'); /* Path to your image file */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 230px;
+    padding: 60px 0px 0px;
+  }
+
+  .biz-contact h2{
+    font-size: 48px;
+    line-height: 54px;
+    font-weight: 700;
+    max-width: 1550px;
+    margin: auto;
+    padding: 0px 10px;
+  }
+
+  .contact-section{
+    padding: 10px 10px 50px;
+    /* max-width: 1200px; */
+    width: 100%;
+    margin: auto;
+  }
+
+  .icon-list ul{
+    display: flex;
+    gap: 37px;
+    list-style: none;
+    align-items: end;
+  }
+
+  .icon-list ul li{
+    display: grid;
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+  .icon-list ul li a{
+    color: #000000;
+  }
+
+  .icon-list{
+    padding: 0px 0px 50px;
+    display: flex;
+    gap: 37px;
+    list-style: none;
+    align-items: end;
+  }
+
+  .socail-icon{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    align-items: end;
+    margin-left: 50px;
+  }
+
+  .form-column{
+    display: flex;
+    gap: 20px;
+  }
+
+  .biz-form-column  h3{
+    font-size: 24px;
+    line-height: 27px;
+    font-weight: 700;
+    padding-bottom: 25px;
+  }
+
+  .form-name label{
+    font-size: 14px;
+    color: #2C2C2C;
+    line-height: 23px;
+  }
+
+  .form-name input{
+    padding: 10px 12px;
+    border-radius: 5px;
+    border: 1px solid #CDCDCD;
+    width: 100%;
+  }
+
+  .form-name{
+    width: 100%;
+    padding: 6px 0px;
+  }
+
+  .form-name #selectOption {
+    padding: 10px 12px;
+    border-radius: 5px;
+    border: 1px solid #CDCDCD;
+    width: 48%;
+  }
+
+  .form-name textarea:focus-visible,
+  .form-name #selectOption:focus-visible {
+    outline: none;
+  }
+
+
+  .form-name textarea{
+    padding: 10px 12px;
+    border-radius: 5px;
+    border: 1px solid #CDCDCD;
+    width: 100%;
+  }
+
+  .form-checkbox p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #7B7B7B;
+    line-height: 24px;
+    padding-bottom: 10px;
+  }
+
+  .form-checkbox .ant-checkbox+span{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #2C2C2C;
+  }
+
+  .form-checkbox{
+    padding-bottom: 25px;
+  }
+
+  .form-checkbox :where(.css-dev-only-do-not-override-dkbvqv).ant-checkbox-wrapper:not(.ant-checkbox-wrapper-disabled):hover .ant-checkbox-checked:not(.ant-checkbox-disabled) .ant-checkbox-inner{
+    background-color: #ea8933;
+    border-color: #ea8933;
+  }
+
+  .form-checkbox :where(.css-dev-only-do-not-override-dkbvqv).ant-checkbox:not(.ant-checkbox-disabled):hover .ant-checkbox-inner{
+    border-color: #ea8933;
+  }
+
+  .form-name button{
+    background-color: #EA8933;
+    padding: 10px 16px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .biz-form-column1 .form-name button{
+    background-color: #2C2C2C;
+    padding: 10px 16px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    line-height: 23px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+
+  .biz-form-section{
+    display: flex;
+    gap: 100px;
+  }
+
+  .biz-form-section .biz-form-column1 .form-name{
+    width: 100%;
+  }
+
+  .biz-form-section .biz-form-column{
+    width: 80%;
+  }
+
+  .biz-form-section .biz-form-column1{
+    width: 40%;
+    border: 1px solid #72959A;
+    border-radius: 10px;
+    padding: 20px;
+    height: fit-content;
+  }
+
+  .biz-form-section .biz-form-column1 h3{
+    font-size: 24px;
+    line-height: 27px;
+    font-weight: 700;
+    padding-bottom: 25px;
+  }
+
+  .icon-list ul li{
+    font-size: 20px;
+  }
+
+  .form-name input:focus-visible {
+    outline: none;
+  }
+
+  @media screen and (max-width: 768px) {
+    .biz_row{
+        flex-direction: column;
+    }
+
+    .form-column{
+      flex-direction: column;
+    }
+
+    .form-name textarea{
+      width: 100%;
+    }
+
+    .icon-list ul li{
+      flex-direction: column;
+      gap: 5px;
+    }
+
+    .contact-section{
+      padding: 10px 10px 0px;
+    }
+
+    .biz-form-section{
+      gap: 50px;
+    }
+
+    .biz_row section{
+        width: 100%;
+    }
+
+    .biz-form-section{
+      flex-direction: column;
+    }
+
+    .biz-form-section .biz-form-column{
+      width: 100%;
+    }
+
+    .biz-form-section .biz-form-column1{
+      width: 100%;
+    }
+
+    .icon-list ul{
+      display: block;
+      align-items: start;
+      gap: 20px;
+    }
+
+    .icon-list{
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+    }
+
+    .socail-icon{
+      margin: 0px;
+      display: flex !important;
+    }
+
+    .icon-list ul li{
+      display: flex;
+      gap: 10px;
+    }
+
+  }

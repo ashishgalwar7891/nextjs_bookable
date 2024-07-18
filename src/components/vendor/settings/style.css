@@ -1,0 +1,64 @@
+.setting-service .logo{
+    border-radius: 50%;
+}
+.white-text{
+    background-color: white;
+    padding: 2px;
+    
+    border-radius: 50px;
+}
+.setting-service .premium{
+    background-color: #ED510C;
+    padding:5px 13px;
+    border-radius: 50px;
+    width:35%;
+}
+.setting-service span{
+    color: #72959A ;
+    
+}
+.setting-service Col{
+    gap:10px;
+}
+.icons-preview span{
+    background-color: #ED510C;
+    border-radius: 50px;
+    padding:0.01px 15px ;
+    margin-right: 2%;
+    width: 100px !important;
+}
+.professional-container{
+    padding:5px;
+     background-color:white;
+      border-radius:5px;
+      width:40px;
+      height:40px;
+}
+.image-container{
+    padding:5px;
+     background-color:#E0E0E0;
+      border-radius:50%;
+      width:100%;
+      height:100%;
+}
+.professional-detail{
+    background-color:white;
+    width:100%;
+    height:50px;
+    border-radius:5px;
+}
+.service-content{
+    width: 100%;
+    height: 50px;
+    background-color: #E0E0E0;
+    border-radius: 5px;
+}
+.carousal-img img{
+    border-radius: 10px !important;
+}
+.carousal-lineargradient{
+    border-radius: 30px;
+}
+.banner-image img{
+    border-radius: 10px !important;
+}

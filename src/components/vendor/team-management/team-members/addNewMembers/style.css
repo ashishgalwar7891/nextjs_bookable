@@ -1,0 +1,66 @@
+
+ .multi-select-container {
+    width: 50%;
+    margin: 20px 5px;
+}
+
+.multi-select {
+    border-radius: 4px;
+    padding: 10px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.selected-options {
+    min-height: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.selected-option {
+    background: #0ba38f96;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 5px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.selected-option .remove-option {
+    background: none;
+    border: none;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.options-dropdown {
+    max-height: 200px;
+    overflow-y: auto;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+    width: 90%;
+}
+
+.option {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.option:hover {
+    background-color: #e6e6e6;
+}
+
+.option.selected {
+    background-color: #d9edf7;
+}
+@media screen and(max-width: 600px) {
+
+    .teammember-uploadpitcure{
+        max-width: 100%;
+    }
+  }
+
+  .teammember-uploadpitcure{
+    width: 300px;
+  }

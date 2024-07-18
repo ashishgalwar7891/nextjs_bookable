@@ -1,0 +1,220 @@
+.biz-container h2{
+  color: #333;
+  padding: 20px 0px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.biz_row section{
+  width: 50%;
+}
+
+.faq-section{
+  padding: 40px 10px;
+}
+
+.collapse-grid .ant-collapse{
+  background: transparent;
+  border: 0px;
+  border-bottom: none;
+  display: contents;
+}
+
+.collapse-grid .ant-collapse-item{
+  border: 0px;
+  border-bottom: none;
+}
+
+.biz-faq{
+  background-image: url('../../assets/imgs/contact-img.png'); /* Path to your image file */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 230px;
+  padding: 60px 0px 0px;
+}
+
+.collapse-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.ant-collapse-expand-icon{
+  color: #EA8933;
+}
+
+.ant-collapse-header-text{
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+  color: #2C2C2C;
+}
+
+
+/* style.css */
+.ant-collapse-header{
+  flex-direction: row-reverse;
+}
+
+
+
+.biz-faq-footer{
+  width: 100%;
+  display: flex;
+  gap: 30px;
+  border: 1px solid #72959A;
+  padding: 30px 20px;
+  align-items: center;
+}
+
+.faq-section{
+  padding: 22px 10px 50px;
+  width: 100%;
+}
+
+.biz-faq h2 {
+  font-size: 48px;
+  line-height: 54px;
+  font-weight: 700;
+}
+
+
+
+.biz-faq-footer-col h3{
+  font-size: 24px;
+  line-height: 27px;
+  font-weight: 700;
+}
+
+.biz-faq-footer-col p{
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 600;
+  padding: 20px 0px;
+}
+
+.faq-btn{
+  display: flex;
+  gap: 20px;
+}
+
+.faq-btn1 a{
+  background-color: #EA8933;
+  color: #fff;
+  padding: 5px 30px 5px 30px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+}
+
+.faq-btn2 a{
+  border: 1px solid #EA8933;
+  color: #ED510C;
+  padding: 5px 30px 5px 30px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 23px;
+}
+
+.faq-btn1 a:hover{
+  color: #fff;
+}
+
+.faq-btn2 a:hover{
+  color: #ED510C;
+}
+
+.biz-faq-footer-col2 ul li{
+  list-style: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 0px 0px 20px;
+}
+
+.biz-faq-footer-col2 ul li .anticon{
+  font-size: 16px;
+  margin-right: 6px;
+}
+
+.icon-list ul{
+  display: flex;
+  gap: 14px;
+}
+
+.icon-list ul li .anticon{
+  font-size: 22px;
+}
+
+.icon-list ul li {
+  list-style: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 0 0 0px;
+}
+
+.faq-section h3{
+  font-size: 18px;
+  padding: 10px 0px;
+  font-weight: 700;
+  color: #c57a37;
+  line-height: 18px;
+}
+
+.ant-collapse-item .ant-collapse-content-active{
+  border-top: 0px !important;
+}
+
+.ant-collapse-content-box p{
+  padding: 10px 0px;
+}
+
+.ant-collapse-content-box{
+  padding: 10px 16px !important;
+}
+
+.collapse-column .ant-collapse-header{
+  padding: 12px 0px !important;
+}
+
+:where(.css-dev-only-do-not-override-dkbvqv).ant-collapse>.ant-collapse-item:last-child>.ant-collapse-header{
+  border-radius: initial !important;
+
+}
+
+:where(.css-dev-only-do-not-override-dkbvqv).ant-collapse>.ant-collapse-item:last-child{
+  border-radius: 0px;
+}
+
+.faqs-btn{
+  font-size: 17px;
+  line-height: 23px;
+  font-weight: 700;
+  padding: 30px 0px;
+  color: #2C2C2C;
+}
+
+.faqs-btn span{
+  color: #ED510C;
+  font-size: 17px;
+  line-height: 23px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px){
+  .collapse-grid{
+    display: block;
+  }
+
+  .icon-list ul{
+    flex-direction: column;
+  }
+}
+

@@ -1,0 +1,25 @@
+.refund{
+    padding: 0px 10px;
+}
+
+.refund h2{
+    font-size: 24px;
+    line-height: 27px;
+    font-weight: 700;
+    padding: 20px 0px;
+}
+
+.refund p{
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 500;
+    padding: 7px 0;
+}
+
+.refund ul li{
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 500;
+    padding: 2px 0;
+    list-style: inside;
+}

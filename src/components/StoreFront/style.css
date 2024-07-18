@@ -1,0 +1,72 @@
+.setting-service .logo{
+    border-radius: 50%;
+}
+
+.setting-service h2{
+    font-family: 'Poppins', sans-serif; ;
+}
+.setting-service .premium{
+    background-color: #ED510C;
+    color: white;
+    padding:7px 13px;
+    border-radius: 50px;
+    text-align: center;
+    width:200px;
+}
+.location-text-call{
+    font-size: 14px;
+    font-weight: 400;
+}
+.setting-service span{
+    color: #72959A ;
+    
+}
+.setting-service .icons{
+    color: #ED510C !important;
+    margin-top: 10px;
+}
+.icons{
+    color: #ED510C !important;
+}
+.setting-service Col{
+    gap:10px;
+}
+.premium-p{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.storefront_slider img{
+    border-radius: 20px;
+    width: 750px;
+    
+}
+.store-social-icons{
+    color:white;
+    background-color: #ED510C;
+    border-radius: 5px;
+    font-size: 2rem;
+    padding: 6px;
+}
+.more_storefront button{
+    border:none;
+    margin-right:10px;
+    margin-top:20px;
+    /* background-color:#d0cccc; */
+}
+ .split-slider .css-dev-only-do-not-override-dkbvqv {
+    display: block !important;
+ }
+ .stater-card{
+    bottom: -40%;
+}
+ @media screen and (min-width: 1500px) {
+.stater-card{
+        bottom: -25%;
+    }
+ }
+ @media screen and (min-width: 2200px) {
+    .stater-card{
+            bottom: -10%;
+        }
+     }
